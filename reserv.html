@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Турист-pro</title>
+    <link rel="stylesheet" href="css/reserv.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <img src="img/logo.png" alt="">
+            <ul>
+                <div class="nav-searchbar">                
+                    <li><input class="nav-search" type="text" placeholder="Введите запрос"></li>
+                    <li><input class="nav-search-button" type="button" value="Поиск"></li>
+                </div>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="reserv.html">Забронировать</a></li>
+                <li><a href="map.html">Маршруты</a></li>
+                <li><a href="zones.html">Выбор зоны для тура</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="reserv">
+        <h1>Бронирование путешествия</h1>
+        <p>Регион:
+            <select class="search-select" name="region">
+                <option class="search-option" value="Алтай">Алтай</option>
+                <option class="search-option" value="Сибирь">Сибирь</option>
+                <option class="search-option" value="Хибины">Хибины</option>
+                <option class="search-option" value="Башкортостан">Башкортостан</option>
+                <option class="search-option" value="Татарстан">Татарстан</option>
+                <option class="search-option" value="Тыва">Тыва</option>
+                <option class="search-option" value="Саха">Саха</option>
+                <option class="search-option" value="Чувашия">Чувашия</option>
+            </select>
+        </p>
+
+        <p>Маршрут: 
+            <select class="search-select" name="route_name" id="input-select">
+                <option class="search-zone" value="zone1">Туда-Сюда-Здесь</option>
+                <option class="search-zone" value="zone2">Тут-Здесь-Там</option>
+                <option class="search-zone" value="zone3">Сюда-Тут-Здесь</option>
+            </select>
+        </p>
+      
+        <div class="date">
+            <p>Желаемая дата:  <input class="search-date" type="date"></p>
+        </div>
+        <p>Сложность путешествия: 
+            <select class="search-select" name="lvl_info">
+                <option class="search-option" value="beginer">Лёгкая</option>
+                <option class="search-option" value="middle">Средняя</option>
+                <option class="search-option" value="hard">Тяжёлая</option>
+                <option class="search-option" value="professional">Профессиональная</option>
+            </select>
+        </p>
+        <div class="amount-people">
+            <p>Количество людей: 
+                <select class="search-select" name="lvl_info">
+                    <option class="search-option" value="1">Один</option>
+                    <option class="search-option" value="2">Двое</option>
+                    <option class="search-option" value="3">Трое</option>
+                    <option class="search-option" value="4">Четверо</option>
+                    <option class="search-option" value="5">Пятеро</option>
+                </select>
+            </p>
+        </div>
+
+        <div class="select-tour">
+            <p>Выбор предполагаемого маршрута</p>
+            <p><input class="radio-tour" type="radio" name="a" value="2000">Завьяловые озёра</p>
+            <p><input class="radio-tour" type="radio" name="a" value="2000">Альпы</p>
+            <p><input class="radio-tour" type="radio" name="a" value="2000">Большие горы Мотомото</p>
+        </div>
+    </div>
+
+    <div class="ass">
+            <h1>Дополнительные услуги к вашему заказу</h1>
+            <p><input type="radio" name="a" value="2000">Услуги проводника</p>
+            <p><input type="radio" name="a" value="2000">Аренда палатки для кемпинга</p>
+            <p><input type="radio" name="a" value="2000">Услуги аренды туристического оборудования</p>
+            <p><input type="radio" name="a" value="2000">Услуги фотографа</p>
+            <p><input type="radio" name="a" value="2000">Страхование от несчастных случаев</p>
+            <h1>Итоговая стоимость: 77 777 ₽</h1>
+    </div>
+
+    <div class="com">
+        <h1>Ваши дополнительные комментарии к заказу</h1>
+        <input class="inputeall" type="text" placeholder="Введите комментарий">
+        <h1>Ваша электронная почта</h1>
+        <input class="inputeall" type="text" placeholder="youremail@domain">
+    </div>
+
+    <button class="order-done">Забронировать</button>
+
+    <footer>
+        <div class="footer">
+            <ul>
+                <li><a href="tel:+78005553310">8 (800) 555-33-10</a></li>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="reserv.html">Забронировать</a></li>
+                <li><a href="map.html">Маршруты</a></li>
+                <li><a href="zones.html">Зоны</a></li>
+            </ul>
+        </div>
+        <a class="mailfooter" href="mailto:scrim@internet.ru">scrim@internet.ru</a>
+        <p class="copyright">© 2077 Turist-Pro</p>
+    </footer>
+</body>
+</html>

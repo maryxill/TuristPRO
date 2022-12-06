@@ -1,0 +1,489 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background: linear-gradient(to left, rgb(216, 229, 238), rgb(212, 226, 241));
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.nav {
+    display: flex;
+    padding-top: 40px;
+    margin: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.300);
+}
+
+.nav ul {
+    width: 700px;
+    height: 30px;
+    margin: 40px 40px;
+}
+
+.nav {
+    background-color: #6db2ca;
+    width: 1000px;
+    text-align: center;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 2px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.nav li {
+    display: inline; 
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav a {
+    text-decoration: none;   
+    color: white;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    color: rgb(6, 114, 255);
+}
+
+.nav-searchbar {
+    width: 300px;
+    margin-left: 550px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.nav-search {
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.nav-search-button {
+    width: 40px;
+    height: 20px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 10px;
+    margin-left: -40px;
+}
+
+.nav-search-button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.point-main {
+    width: 1000px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-top: 65px;
+    color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.300);
+    text-align: center;
+    background-image: url(../img/pointbg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.point-main h1 {
+    background-color: #08203a;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.point-one {
+    background-color: rgba(142, 193, 230, 0.836);
+    margin: 80px auto;
+    padding: 10px;
+}
+
+.infografika {
+    width: 1000px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../img/background.jpg);
+    color: white;
+    border-radius: 20px;
+    margin-top: 65px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.300);
+}
+
+.infografika-main {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+.infogragika-img {
+    margin: 0 auto;
+    display: block;
+}
+
+.infografika h1 {
+    background-color: #6db2ca;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.search h1 {
+    background-color: #0d337a;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.search {
+    margin-left: 30px;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.search p {
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.search-date {
+    height: 25px;
+    width: 120px;
+    border-radius: 20px;
+    outline: 0;
+    border: 0;
+    font-size: 10px;
+    text-align: center;
+}
+
+.search-select {
+    height: 25px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    outline: 0;
+    border: 0;
+    font-size: 10px;
+    text-align: center;
+}
+
+.search-select:hover {
+    cursor: pointer;
+}
+
+.search-button {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+    outline: 0;
+    border: 0;
+}
+
+.search-button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.main {
+    background: url(../img/rotatebg.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 280px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 65px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.300);
+}
+
+.main h1 {
+    background-color: #295288;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.feedbacks {
+    width: 1000px;
+    height: 600px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 65px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.300);
+    background-image: url(../img/fbbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
+.myfb {
+    background-color: #0d337a;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.feedbacks-main {
+    display: flex;
+    margin: auto;
+    font-size: 18px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.fb {
+    width: 300px;
+    height: 400px;
+    margin-left: 30px;
+    margin-right: 30px;  
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #2a4880af;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.300);
+}
+
+.fb-photo {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.fb-username {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.fb-username {
+    font-size: 20px;
+    text-align: center;
+}
+
+.rating1 {
+    margin-left: 100px;
+}
+
+.rating2 {
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.rating3 {
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.dsc {
+    height: 1100px;
+    background: url(../img/tourbg.png);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    color: white;
+    margin-top: 65px;
+
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.dsc-box {
+    width: 900px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-top: 50px;
+    padding: 0;
+    background-color: #2a4880af;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.300);
+}
+
+.dsc-box button {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+    outline: 0;
+    border: 0;
+}
+
+.dsc-box button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.text{
+    width: 400px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.text p{
+    text-align: justify center;
+}
+
+.dscimg1 {
+    width: 450px;
+    height: 270px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.dscimg2 {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 410px;
+    height: 270px;
+}
+
+.dscimg3 {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 436px;
+    height: 270px;
+}
+
+.dsc1 {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.dsc2 {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.dsc3 {
+    display: flex;
+}
+
+.dsc h1 {
+    text-align: center;
+}
+
+.dsc-main-text {
+    width: 1000px;
+    background-color: #1b003b;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sub {
+    background: linear-gradient(to left, rgb(82, 49, 124), rgb(176, 89, 194));
+    width: 1000px;
+    height: 125px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 65px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+
+.subemail {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    outline: 0;
+    border: 0;
+}
+
+.sub button {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    outline: 0;
+    border: 0;
+}
+
+.sub button:hover {
+    background-color: rgb(28, 122, 0);
+    cursor: pointer;
+}
+
+.mailfooter {
+    font-size: 15px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+footer {
+    background-color: #6db2ca;
+    width: 1000px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 65px;
+    text-align: center;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 2px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.300);
+}
+
+footer li {
+    display: inline; 
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;   
+    color: white;
+    font-size: 20px;
+}
+
+footer a:hover {
+    color: rgb(6, 114, 255);
+}
+
+
+
+
+
+
+
+
+

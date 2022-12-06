@@ -1,0 +1,219 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background: linear-gradient(to left, rgb(216, 229, 238), rgb(212, 226, 241));
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.nav {
+    display: flex;
+    padding-top: 40px;
+    margin: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.300);
+}
+
+.nav ul {
+    width: 700px;
+    height: 30px;
+    margin: 40px 40px;
+}
+
+.nav {
+    background-color: #6db2ca;
+    width: 1000px;
+    text-align: center;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 2px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.nav li {
+    display: inline; 
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav a {
+    text-decoration: none;   
+    color: white;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    color: rgb(6, 114, 255);
+}
+
+.nav-searchbar {
+    width: 300px;
+    margin-left: 550px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.nav-search {
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.nav-search-button {
+    width: 40px;
+    height: 20px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 10px;
+    margin-left: -40px;
+}
+
+.nav-search-button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+
+.map {
+    border-radius: 10px;
+    margin-top: 65px;
+    color: white;
+    font-size: 18px;
+    background: url(../img/mapimg.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    width: 980px;
+    height: 611px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 65px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.300);
+}
+
+.map h1 {
+    text-align: center;
+}
+
+.map_info {
+    display: flex;
+    height: 250px;
+}
+
+.map-box {
+    width: 800px;
+    background-color: #6d92ca98;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.300);
+}
+
+.search-select {
+    height: 25px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    outline: 0;
+    border: 0;
+    font-size: 10px;
+    text-align: center;
+}
+
+.search-select:hover {
+    cursor: pointer;
+}
+
+.map p {
+    text-align: justify center;
+}
+
+.zone p {
+    text-align: justify center;
+    width: 500px;
+}
+
+.map button {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+    outline: 0;
+    border: 0;
+}
+
+.map button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.search-date {
+    height: 25px;
+    width: 120px;
+    border-radius: 20px;
+    outline: 0;
+    border: 0;
+    font-size: 10px;
+    text-align: center;
+}
+
+.zone{
+    width: 300px;
+    height: 250px;
+    padding-left: 33px;
+}
+
+.mailfooter {
+    font-size: 15px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+footer {
+    background-color: #6db2ca;
+    width: 1000px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 65px;
+    text-align: center;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 2px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.300);
+}
+
+footer li {
+    display: inline; 
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;   
+    color: white;
+    font-size: 20px;
+}
+
+footer a:hover {
+    color: rgb(6, 114, 255);
+}
