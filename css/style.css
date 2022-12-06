@@ -312,7 +312,7 @@ header img {
     border-radius: 20px;
     color: white;
     margin-top: 65px;
-
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.300);
     padding-right: 10px;
     padding-bottom: 10px;
 }
